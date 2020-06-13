@@ -3,8 +3,13 @@
 
 //Import all stylesheets globally into this main global
 @import "./main-styles.scss";
+@import "./app/note-card/note-card.component.scss";
 @import "./app/pages/main-layout/main-layout.component.scss";
 @import "./app/pages/notes-list/notes-list.component.scss";
 
 //Import bootstrap scss from node_modules
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+html, body {
+  background: $primary;
+}

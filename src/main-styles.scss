@@ -1,8 +1,9 @@
 //Changing Bootstrap variables and adding global styles
 
-$primary: #3A86FF;
+$primary: #007eff;
 $secondary: #BCD2EE;
 $dark: #111D13;
+$light-red: #fbe1e1;
 
 $font-dark: #111D13;
 $font-secondary: #05668D;
@@ -13,6 +14,7 @@ $font-light: #BCD2EE;
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Baloo Tammudu 2", sans-serif;
+  color: $font-dark;
 }
 
 
