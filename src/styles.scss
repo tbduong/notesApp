@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+//Import main -styles css
+@import "./main-styles.scss";
+//Import bootstrap scss from node_modules
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background: $primary;
+}

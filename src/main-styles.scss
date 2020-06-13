@@ -1,0 +1,25 @@
+//Changing Bootstrap variables and adding global styles
+
+$primary: #3A86FF;
+$secondary: #BCD2EE;
+$dark: #111D13;
+
+$font-dark: #111D13;
+$font-secondary: #05668D;
+$font-light: #BCD2EE;
+
+//Import GoogleFonts
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2");
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Baloo Tammudu 2", sans-serif;
+}
+
+
+/* GLOBAL STYLES */
+html, body {
+  height: 100%;
+  //set the default font size to 18px
+  font-size: 18px;
+  overflow: hidden;
+}
